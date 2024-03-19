@@ -108,8 +108,8 @@ let result = '';
 
     document.querySelector('.js-moves').innerHTML =
      `You
-  <img src="images/${playmove}-emoji.png" alt="" class="move_icon">
-  <img src="images/${computerMove}-emoji.png" alt="" class="move_icon">
+  <img src="./rock-paper-scissor-game/images/${playmove}-emoji.png" alt="" class="move_icon">
+  <img src="./rock-paper-scissor-game/images/${computerMove}-emoji.png" alt="" class="move_icon">
   Computer
 `;
 }

@@ -12,8 +12,3 @@ $('.carousel-control-next').on('click', function(){
     }
 
 );
-
-if(1 < 10 ){
-document.getElementById("demo").innerHTML = "Hello Dolly.";
-
-}

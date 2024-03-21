@@ -144,3 +144,11 @@ function resartScore() {
   updatescore();
 
 }
+document.querySelector('.js-reset-button').addEventListener('click', () => {
+  resartScore();
+})
+
+document.querySelector('.js-autoplay-button').addEventListener('click', () => {
+  autoplay();
+})
+
